@@ -17,13 +17,11 @@ int main() {
     int largestNumber;
     cout << "\nEnter the largest number you want to play with: ";
     
-    // Input validation for largestNumber
     while (!(cin >> largestNumber) || largestNumber <= 1) {
         cout << "Invalid input. Please enter a number greater than 1: ";
         clearInputBuffer();
     }
 
-    // Modern random number generation
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> distrib(1, largestNumber);
@@ -37,7 +35,6 @@ int main() {
     while (userGuess != secretNumber) {
         cout << "\nEnter your guess: ";
         
-        // Input validation for userGuess
         if (!(cin >> userGuess)) {
             cout << "Invalid input. Please enter an integer." << endl;
             clearInputBuffer();

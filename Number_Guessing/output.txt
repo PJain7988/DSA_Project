@@ -1,0 +1,25 @@
+==========================================================
+          **** Welcome to the Number Guessing Game! ****
+==========================================================
+
+Enter the largest number you want to play with: 100
+
+I'm thinking of a number between 1 and 100.
+
+Enter your guess: 50
+Too low. Try again.
+
+Enter your guess: 75
+Too high. Try again.
+
+Enter your guess: 62
+Too low. Try again.
+
+Enter your guess: 68
+Too high. Try again.
+
+Enter your guess: 65
+
+**********************************************************
+   Congratulations! You guessed the number in 5 attempts!
+**********************************************************
